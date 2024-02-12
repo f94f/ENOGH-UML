@@ -1,9 +1,74 @@
-<mxfile host="app.diagrams.net" modified="2024-02-12T15:52:38.733Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" version="23.1.2" etag="CYDF8f2-42GegFrToglY" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-12T15:52:56.628Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="HF-3IJv5iX9TvNOMuVFV" version="23.1.2" type="github">
   <diagram name="Pagina-1" id="BFMAr_MFA7Jsz3yOHJNf">
-    <mxGraphModel>
+    <mxGraphModel dx="1562" dy="810" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="zY5vkqu7wR_RtWscPt4i-1" value="Portale Web" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="200" width="100" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="zY5vkqu7wR_RtWscPt4i-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="zY5vkqu7wR_RtWscPt4i-1">
+          <mxGeometry x="45" y="70" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zY5vkqu7wR_RtWscPt4i-3" value="Creazione file glTF e Json" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.033;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="zY5vkqu7wR_RtWscPt4i-1">
+          <mxGeometry x="-0.046" relative="1" as="geometry">
+            <mxPoint x="-80.33000000000001" y="189.82999999999998" as="sourcePoint" />
+            <mxPoint x="44.999999999999915" y="189.82999999999998" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zY5vkqu7wR_RtWscPt4i-4" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="zY5vkqu7wR_RtWscPt4i-1">
+          <mxGeometry x="45" y="180" width="10" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="zY5vkqu7wR_RtWscPt4i-5" value="Invio dati" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.033;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="zY5vkqu7wR_RtWscPt4i-1" source="zY5vkqu7wR_RtWscPt4i-4">
+          <mxGeometry x="-0.046" relative="1" as="geometry">
+            <mxPoint x="60" y="209.99999999999994" as="sourcePoint" />
+            <mxPoint x="185.32999999999993" y="209.99999999999994" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zY5vkqu7wR_RtWscPt4i-6" value="Trasformer" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="200" width="100" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="zY5vkqu7wR_RtWscPt4i-7" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="zY5vkqu7wR_RtWscPt4i-6">
+          <mxGeometry x="45" y="200" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zY5vkqu7wR_RtWscPt4i-8" value="Feedback" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=-0.04;exitY=0.713;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="zY5vkqu7wR_RtWscPt4i-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="326" as="sourcePoint" />
+            <mxPoint x="250" y="326" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zY5vkqu7wR_RtWscPt4i-9" value="Esperto&lt;br&gt;Progettista" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="180" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zY5vkqu7wR_RtWscPt4i-10" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1" target="zY5vkqu7wR_RtWscPt4i-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="244" y="530" as="sourcePoint" />
+            <mxPoint x="590" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zY5vkqu7wR_RtWscPt4i-11" value="Caricamento file IFC" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.033;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="zY5vkqu7wR_RtWscPt4i-2">
+          <mxGeometry x="-0.046" relative="1" as="geometry">
+            <mxPoint x="250" y="290" as="sourcePoint" />
+            <mxPoint x="340" y="290" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zY5vkqu7wR_RtWscPt4i-12" value="Risposta positiva" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0.014;exitY=0.855;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="zY5vkqu7wR_RtWscPt4i-7" target="zY5vkqu7wR_RtWscPt4i-4">
+          <mxGeometry x="-0.046" relative="1" as="geometry">
+            <mxPoint x="395" y="420" as="sourcePoint" />
+            <mxPoint x="380" y="451" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zY5vkqu7wR_RtWscPt4i-13" value="Feedback" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry x="-0.046" relative="1" as="geometry">
+            <mxPoint x="370" y="480" as="sourcePoint" />
+            <mxPoint x="250" y="480" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
